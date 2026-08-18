@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Raw and cached datasets
+data/
+dataset/
+datasets/
+*.parquet
+*.pq
+train.csv
+test.csv
+
+# Predictions, submissions, models, and generated experiment artifacts
+submission.csv
+submission_*.csv
+outputs/
+artifacts/
+mlruns/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
